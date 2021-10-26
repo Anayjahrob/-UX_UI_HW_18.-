@@ -3,10 +3,17 @@ index.css
 html, body {
   background-color: black;
 }
+body {color:#ffffff
+}
 .inline-block {
-    text-color: #E291FE;}
+    color: #E291FE;}
 
-}style
+
+}
+.h1{
+  color:#E291FE
+}
+style
 .heroimg{
 height: 600px;
 padding: 25px;
@@ -15,9 +22,9 @@ padding: 25px;
   width: 500px;
   margin: 0 auto;
 }
-*footer{
+.footer{
   background-color: #48484d;
-  text-color:#E291FE
+  color:#E291FE
   ;}
 
 .ul .li{
@@ -51,4 +58,16 @@ vertical-align:top;}
 
 .container {
     display: flex; /* or inline-flex */
+  }
+  <!--  My UX Skills section coded using CSS flex -->
+  .flexContainer{
+    display: flex;
+    width: 33%;
+    margin: ;
+    padding: ;
+  }
+  <!--  My My Work section coded using CSS flex -->
+  .workGrid{
+    display:grid;
+    
   }
